@@ -121,11 +121,11 @@ const Bottom = ({ checkedAllValue, CheckedAll, sumPrice,sum }) => {
     return (
         <div className='bottom'>
             <Actions checkedAllValue={checkedAllValue} CheckedAll={CheckedAll} sumPrice={sumPrice} sum={sum}></Actions>
-            <TabBar activeKey={activeKey} onChange={setActiveKey}>
+            {/* <TabBar activeKey={activeKey} onChange={setActiveKey}>
                 {tabs.map(item => (
                     <TabBar.Item key={item.key} icon={item.icon} title={item.title} />
                 ))}
-            </TabBar>
+            </TabBar> */}
         </div>
 
     )
