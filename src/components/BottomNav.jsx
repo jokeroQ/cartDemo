@@ -44,7 +44,7 @@ const BottomNav = () => {
                     <TabBar.Item key={item.key} icon={item.icon} title={item.title} />
                 ))}
             </TabBar> */}
-            <Link to="/" style={currentPath === '/' ? styles.activeLink : styles.link}>首页</Link>
+            <Link to="/home" style={currentPath === '/home' ? styles.activeLink : styles.link}>首页</Link>
             <Link to="/about" style={currentPath === '/about' ? styles.activeLink : styles.link}>关于</Link>
             <Link to="/shoppingcart" style={currentPath === '/shoppingcart' ? styles.activeLink : styles.link}>购物车</Link>
             <Link to="/profile" style={currentPath === '/profile' ? styles.activeLink : styles.link}>个人中心</Link>
